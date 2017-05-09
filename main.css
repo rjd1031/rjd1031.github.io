@@ -1,0 +1,25 @@
+.background {
+    background: url(imgs/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+.background2 {
+    background: url(imgs/4.jpg);
+    background-size: 50%;
+    background-repeat: repeat;
+}
+@media only screen and (max-width: 500px) {
+    .smaller {
+        height: 150px;
+        width: 150px;
+    }
+}
+.margin-top {
+    margin-top: 60px;
+}
+.margin-bot {
+    margin-bottom: 60px;
+}
+
+
